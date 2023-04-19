@@ -66,6 +66,6 @@ Finally, I evaluated the tuned machine learning classifier using ROC curve and A
 
 ![image](https://user-images.githubusercontent.com/106838561/233215522-302d49c0-debd-42a9-9410-843ce0165263.png)
 
-Also, I was able to plot a graphic for visualization the feature importance in this problem:
+Also, I was able to plot a bar graphic for visualization the feature importance in this problem:
 
 ![image](https://user-images.githubusercontent.com/106838561/233215721-6f3342ba-27c5-41bf-878d-1adbe93cf11e.png)
