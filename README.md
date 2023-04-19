@@ -19,7 +19,7 @@ I'm dealing with structured data, containing 14 variables for over 300 patients.
 **Packages:** Pandas, NumPy, Matlplotlib and Scikit-Learn
 
 ## 6. EDA
-Getting into know the DataFrame:
+Getting to know the DataFrame:
 * How many columns does it have?
 * What do they mean?
 * What kind of data (numerical, strings etc.) do they have?
