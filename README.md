@@ -14,7 +14,7 @@ Evaluation was made using estimators.
 I'm dealing with structured data, containing 14 variables for over 300 patients.
 
 ## 5. Code and resourses used
-**Python version:** 3.7
+**Python version:** 3.9
 
 **Packages:** Pandas, NumPy, Matlplotlib and Scikit-Learn
 
