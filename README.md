@@ -41,7 +41,7 @@ For each DataFrame column there's a description:
 13. thal - Thalassemia (3 = normal, 6 = fixed defect, 7 = reversible defect);
 14. num - Diagnosis of heart disease (0 = absence, 1, 2, 3, 4 = present).
 
-After that, I started to explore the correlations between variables by making a correlation matrix, for example:
+After that, I explored the correlations between variables by making a correlation matrix, for example:
 
 ![image](https://user-images.githubusercontent.com/106838561/233213143-59c5e135-16d3-4783-a250-ac51d974ab58.png)
 
@@ -66,6 +66,6 @@ Finally, I evaluated the tuned machine learning classifier using ROC curve and A
 
 ![image](https://user-images.githubusercontent.com/106838561/233215522-302d49c0-debd-42a9-9410-843ce0165263.png)
 
-Also, I was able to plot a bar graphic for visualization the feature importance in this problem:
+Also, I was able to plot a bar graphic in order to visualize the feature importance in this problem:
 
 ![image](https://user-images.githubusercontent.com/106838561/233215721-6f3342ba-27c5-41bf-878d-1adbe93cf11e.png)
