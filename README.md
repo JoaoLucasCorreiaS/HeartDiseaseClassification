@@ -53,14 +53,14 @@ I made a comparison between three classification models:
 
 ## 8. Results
 Initially I was able to get each model's score for accuracy:
-* Logistic Regression = 0.89
-* K-Nearest Neighbors Classifier = 0.69
-* Random Forest Classifier = 0.85
+* Logistic Regression = **0.89**
+* K-Nearest Neighbors Classifier = **0.69**
+* Random Forest Classifier = **0.85**
 
 
 ![image](https://user-images.githubusercontent.com/106838561/233213904-1aa8eb94-b1c1-4aa0-8e5f-62dde49bc29e.png)
 
-Then some hyperparameter tunning was made for Logistic Regression model since it delivered the best accuracy. For that I used RandomizedSearchCV and GridSearchCV, getting 0.87 as the accuracy for the first one and 0.89 for the second one.
+Then some hyperparameter tunning was made for Logistic Regression model since it delivered the best accuracy. For that I used RandomizedSearchCV and GridSearchCV, getting **0.87** as the accuracy for the first one and **0.89** for the second one.
 
 Finally, I evaluated the tuned machine learning classifier using ROC curve and AUC score, confusion matrix, classification report, precision, recall and F1-score, obtaining the scores shown as follows:
 
