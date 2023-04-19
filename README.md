@@ -25,6 +25,22 @@ Getting into know the DataFrame:
 * What kind of data (numerical, strings etc.) do they have?
 * Is there any missing data?
 
+For each DataFrame column there's a description:
+1. age - The age of the patient;
+2. sex - The gender of the patient. (1 = male, 0 = female);
+3. cp - Type of chest pain. (1 = typical angina, 2 = atypical angina, 3 = non — anginal pain, 4 = asymptotic);
+4. trestbps - Resting blood pressure in mmHg;
+5. chol - Serum Cholestero in mg/dl;
+6. fbs - Fasting Blood Sugar. (1 = fasting blood sugar is more than 120mg/dl, 0 = otherwise);
+7. restecg - Resting ElectroCardioGraphic results (0 = normal, 1 = ST-T wave abnormality, 2 = left ventricular hyperthrophy);
+8. thalach - Max heart rate achieved;
+9. exang - Exercise induced angina (1 = yes, 0 = no);
+10. oldpeak - ST depression induced by exercise relative to rest;
+11. slope - Peak exercise ST segment (1 = upsloping, 2 = flat, 3 = downsloping);
+12. ca - Number of major vessels (0–3) colored by flourosopy;
+13. thal - Thalassemia (3 = normal, 6 = fixed defect, 7 = reversible defect);
+14. num - Diagnosis of heart disease (0 = absence, 1, 2, 3, 4 = present).
+
 After that, I started to explore the correlations between variables by making a correlation matrix, for example:
 
 ![image](https://user-images.githubusercontent.com/106838561/233213143-59c5e135-16d3-4783-a250-ac51d974ab58.png)
