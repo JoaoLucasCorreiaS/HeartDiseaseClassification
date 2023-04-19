@@ -1,5 +1,5 @@
 # HeartDiseaseClassification 
-Classification of patients in possibly having a heart disease or not based on personal answers data about their health and life styles.
+Classification of patients on possibly having a heart disease or not, based on personal answers data about their health and life styles.
 
 ## 1. Problem
 How to classify patients in possibly having a heart disease or not based on personal answers data about their health and life styles using Machine Learning models?
