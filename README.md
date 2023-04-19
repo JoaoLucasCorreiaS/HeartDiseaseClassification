@@ -1,4 +1,4 @@
-# HeartDiseaseClassification (in construction)
+# HeartDiseaseClassification 
 Classification of patients in possibly having a heart disease or not based on personal answers data about their health and life styles.
 
 ## 1. Problem
@@ -16,6 +16,40 @@ I'm dealing with structured data, containing 14 variables for over 300 patients.
 ## 5. Code and resourses used
 **Python version:** 3.7
 
-**Packages:** Pandas, NumPy, Matlplot and Scikit-Learn
+**Packages:** Pandas, NumPy, Matlplotlib and Scikit-Learn
 
 ## 6. EDA
+Getting into know the DataFrame:
+* How many columns does it have?
+* What do they mean?
+* What kind of data (numerical, strings etc.) do they have?
+* Is there any missing data?
+
+After that, I started to explore the correlations between variables by making a correlation matrix, for example:
+
+![image](https://user-images.githubusercontent.com/106838561/233213143-59c5e135-16d3-4783-a250-ac51d974ab58.png)
+
+## 7. Modelling
+I made a comparison between three classification models:
+* Logistic Regression
+* K-Nearest Neighbors Classifier
+* Random Forest Classifier
+
+## 8. Results
+Initially I was able to get each model's score for accuracy:
+* Logistic Regression = 0.89
+* K-Nearest Neighbors Classifier = 0.69
+* Random Forest Classifier = 0.85
+
+
+![image](https://user-images.githubusercontent.com/106838561/233213904-1aa8eb94-b1c1-4aa0-8e5f-62dde49bc29e.png)
+
+Then some hyperparameter tunning was made for Logistic Regression model since it delivered the best accuracy. For that I used RandomizedSearchCV and GridSearchCV, getting 0.87 as the accuracy for the first one and 0.89 for the second one.
+
+Finally, I evaluated the tuned machine learning classifier using ROC curve and AUC score, confusion matrix, classification report, precision, recall and F1-score, obtaining the scores shown as follows:
+
+![image](https://user-images.githubusercontent.com/106838561/233215522-302d49c0-debd-42a9-9410-843ce0165263.png)
+
+Also, I was able to plot a graphic for visualization the feature importance in this problem:
+
+![image](https://user-images.githubusercontent.com/106838561/233215721-6f3342ba-27c5-41bf-878d-1adbe93cf11e.png)
